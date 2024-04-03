@@ -44,6 +44,9 @@
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
 
+% use to control list spacing
+\usepackage{enumitem}
+
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{false}
 \usepackage{hyperref}
@@ -64,7 +67,7 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
 \name{Matthew}{Chang}
-% - \position{}
+% \position{U.S. Citizen}
 \address{42111 Osgood Road \#415, Fremont, CA 95439}
 
 \mobile{+18143216646}
@@ -81,7 +84,7 @@
 % \googlescholar{googlescholar-id}{Matthew P. Chang}
 %% \firstname and \lastname will be used
 % \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
+\extrainfo{U.S. Citizen}
 
 % \quote{``Be the change that you want to see in the world."}
 
@@ -106,8 +109,9 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{resume_ml/summary.tex}
-\input{resume_ml/experience.tex}
+\input{resume_ml/projects.tex}
 \input{resume_ml/summary_of_skills.tex}
+\input{resume_ml/experience.tex}
 \input{resume_ml/education.tex}
 % \input{resume/presentation.tex}
 % \input{resume/writing.tex}
